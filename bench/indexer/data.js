@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707355934342,
+  "lastUpdate": 1707368689667,
   "repoUrl": "https://github.com/MystenLabs/sui",
   "entries": {
     "Benchmark": [
@@ -659,6 +659,36 @@ window.BENCHMARK_DATA = {
             "name": "get_checkpoint",
             "value": 343628,
             "range": "± 39351",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "103447440+mystenmark@users.noreply.github.com",
+            "name": "Mark Logan",
+            "username": "mystenmark"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2df8afc834276fd8723ab3f37a3af270bd5d1d2",
+          "message": "More state sync logs (#16115)",
+          "timestamp": "2024-02-08T04:56:26Z",
+          "tree_id": "3a7bb5f1fa8d325db4605fa1ef5729bc1df4a191",
+          "url": "https://github.com/MystenLabs/sui/commit/d2df8afc834276fd8723ab3f37a3af270bd5d1d2"
+        },
+        "date": 1707368687227,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "get_checkpoint",
+            "value": 359404,
+            "range": "± 23636",
             "unit": "ns/iter"
           }
         ]
